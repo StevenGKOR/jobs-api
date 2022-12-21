@@ -1,7 +1,7 @@
 Jobs API is a server-side application, provide a CRUD functionallity, developed with Javascript, Node.js, Express.js and MongoDB.
 Extra packages like SwaggerUI and JTW were used.
 
-URL : https://jobs-api-lmgs.onrender.com/
+URL : http://jobs-api-lmgs.onrender.com/
 Specific URL for documantation : https://jobs-api-lmgs.onrender.com/api-docs/
 
 For security,packages like helmet cors rate-limiter and xss
