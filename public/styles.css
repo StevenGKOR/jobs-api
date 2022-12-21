@@ -12,14 +12,33 @@ body {
   justify-content: center;
 }
 
+.wrapper {
+  padding: 4rem;
+  background: #ffffff;
+  border: 0.1rem solid #ff000036;
+  box-shadow: 5px 5px 15px #979595;
+  border-radius: 0.33rem;
+}
+
 a {
   text-decoration: none;
 }
 
+i.fa-sharp.fa-solid.fa-hand-point-up {
+  font-size: 2rem;
+  padding: 1rem;
+  transform: rotate(90deg);
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
 h1.title {
-  border: 0.25rem solid #ff6e044a;
+  border: 0.1rem solid #ff6e041a;
   padding: 2rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   background: #ff76001f;
 }
 
@@ -28,9 +47,8 @@ h1.title {
   justify-content: center;
   align-items: center;
   background: #99949145;
-  border: 0.25rem solid #ff6e044a;
   padding: 2rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin-top: 5rem;
   color: #4e4b4b;
   transition: all 0.35s linear;
