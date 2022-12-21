@@ -2,7 +2,7 @@ Jobs API is a server-side application, provide a CRUD functionallity, developed 
 Extra packages like SwaggerUI and JTW were used.
 
 URL : http://jobs-api-lmgs.onrender.com/
-Specific URL for documantation : https://jobs-api-lmgs.onrender.com/api-docs/
+Specific URL for documantation : http://jobs-api-lmgs.onrender.com/api-docs/
 
 For security,packages like helmet cors rate-limiter and xss
 JWT used for registration/login, when a user logged in or register to the app a token with genarate. Users cannot access the /jobs 
