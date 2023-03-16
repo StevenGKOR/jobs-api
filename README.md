@@ -1,25 +1,11 @@
-Jobs API is a server-side application, provide a CRUD functionallity, developed with Javascript, Node.js, Express.js and MongoDB.
-Extra packages like SwaggerUI and JTW were used.
+The Jobs API is a server-side application that provides CRUD functionality and was developed using JavaScript, Node.js, Express.js, and MongoDB. The API features various packages, including SwaggerUI and JWT for added security.
 
-URL : http://jobs-api-lmgs.onrender.com/
-Specific URL for documantation : http://jobs-api-lmgs.onrender.com/api-docs/
+To access the Jobs API, users must visit the following URL: http://jobs-api-lmgs.onrender.com/. Additionally, there is a specific URL for documentation, which can be found here: http://jobs-api-lmgs.onrender.com/api-docs/.
 
-For security,packages like helmet cors rate-limiter and xss
-JWT used for registration/login, when a user logged in or register to the app a token with genarate. Users cannot access the /jobs 
-routes if they have not created an account or are not logged in
-Bcryptjs used for hashing passwords
-SwaggerUI for a beautifull UI documentation
-Http-status-codes for specific status codes at responses depending on the requests of a user and the outcome of the response
-Mongoose for database connection and data management
-A middleware named error-handler handles the errors 
+For security purposes, packages such as helmet, cors, rate-limiter, xss, and bcryptjs were implemented. Users must register and log in with a valid email and password (which must be longer than three characters) to access the /jobs routes. Once a user is authenticated, a token is generated and stored to allow access to the API.
 
+To handle database management and connections, Mongoose is used. Additionally, HTTP status codes are implemented to provide specific responses depending on user requests and outcomes. In the event of an error, an error-handler middleware is implemented.
 
-The API can be used to store an job interviews and the status of those interviews. First a user must create an acoount or login with a existing one
-A user must provide a valid e-mail (checking throw regex) and a password bigger than 3 length, the email must be unique
-
-If users logged in or create an account they can create a job interview, update the status of that interview 
-between 3 available status (interview, declined and pending). Pending will used as default status. Users can only view, update and delete the 
-interviews that belong to them
-
+The Jobs API allows users to store job interviews and their respective statuses. After registering or logging in, a user can create, view, update, or delete interviews. Interviews can be updated to one of three available statuses: interview, declined, or pending. Pending is the default status for any newly created interviews. It's important to note that users can only view, update, and delete interviews that belong to them.
 
 
